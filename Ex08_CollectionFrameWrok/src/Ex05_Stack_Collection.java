@@ -50,7 +50,8 @@ public class Ex05_Stack_Collection {
 		my.push("A");
 		my.push("B");
 		my.push("C");
-		my.push("D"); //스택이 가득차 있어요
+		
+		 my.push("D"); //스택이 가득차 있어요
 		
 		System.out.println(my.pop());
 		System.out.println(my.pop());
