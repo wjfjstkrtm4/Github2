@@ -1,10 +1,13 @@
 import java.util.HashSet;
+import java.util.Scanner;
+import java.util.Set;
+import java.util.TreeSet;
 
 // Set 인터페이스를 구현하고 있는 클래스
 // Set 순서가 (X) -> 중복값이 허용 (X) 데이터 집합을 다룰때 ...
 // 구현하는 클래스 : HashSet, TreeSet
 // 순서 보장하지 않아요 (내부적으로 배열에 저장되는게 아니라, 넣은 순서를 보장하지 않는다)
-
+	
 
 public class Ex10_Set_Interface {
 
@@ -46,6 +49,8 @@ public class Ex10_Set_Interface {
 		// Quiz
 		// HashSet을 사용해서 1 ~ 45까지 난수 6개를 넣으세요 (add)
 		// (int)(Math.random() *45 ) +1
+		
+		
 	}
 
 }

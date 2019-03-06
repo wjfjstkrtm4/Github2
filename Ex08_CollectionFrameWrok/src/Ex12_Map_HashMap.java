@@ -59,6 +59,9 @@ public class Ex12_Map_HashMap {
 		// Set 인터페이스를 구현하는 객체(HashSet)를 내부적으로 new하고, 거기에다가 key값을 담고
 		// 그 주소값을 리턴한다 ... 다형성 적용
 
+		
+		
+		
 		Iterator it = set.iterator();
 
 		while (it.hasNext()) {

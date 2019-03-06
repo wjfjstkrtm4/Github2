@@ -39,6 +39,7 @@ public class Ex14_HashMap_Generic {
 		System.out.println(hongstd.kor);
 		System.out.println(hongstd.math);
 		System.out.println(hongstd.eng);
+		System.out.println("***" + students.get("hong").eng);
 		
 		// 예외적으로
 		// Map 은 기본적으로 key 가지고 value 값 얻기

@@ -56,7 +56,7 @@ public class HashLotto {
 		
 		// Set 인터페이스를 구현하는 HashSet을 가지고 놀다가 ... 데이터 정렬 .. 안되나?.. 응 안되..
 		// HashSet >> sort 제공 (X)
-		
+	
 		List list = new ArrayList(set3);
 		
 		System.out.println("Before 무작위 : " + list.toString());
