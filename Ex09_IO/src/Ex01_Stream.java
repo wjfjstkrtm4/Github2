@@ -49,7 +49,7 @@ public class Ex01_Stream {
 		
 		output = new ByteArrayOutputStream(); // write 대상(memory)
 		
-
+		System.out.println("*****" + output);
 		System.out.println("before output : " + Arrays.toString(outSrc));
 		
 		// 공식같은 로직(암기)

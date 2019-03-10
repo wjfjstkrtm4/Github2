@@ -38,6 +38,7 @@ public class Ex04_Stream_File_Buffer {
 			
 			for(int i = 0; i < 10; i++) {
 				bos.write('B');
+		
 			
 			}
 			

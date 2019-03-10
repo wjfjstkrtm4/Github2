@@ -73,7 +73,9 @@ public class Ex02_POINT_File_Read_Write {
 			
 			
 			int data = 0;
-			while((data = fs.read()) != -1) {
+			while((data = fs.read()) != -1) { 
+				
+				
 				fos.write(data); // new.txt (encoding)
 			}
 			

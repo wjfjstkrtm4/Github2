@@ -25,15 +25,16 @@ public class Ex06_FileReader_FileWriter_Buffer {
 		try {
 			 fr = new FileReader("Ex01_Stream.java");
 			 br = new BufferedReader(fr); // 라인 단위로 읽을 수 있다
-			 
+			
 			 String line="";
 			 //br.readLine(); 엔터를 기준으로 한줄씩 read POINT
 			 for(int i = 0 ; (line = br.readLine()) != null ; i++) { // 문자열값을 line에 넣는다
-				// System.out.println(line);					// String은 클래스니까 값이없으면 null값을 반환한다
+				 System.out.println(line);					// String은 클래스니까 값이없으면 null값을 반환한다
 				
-				 if(line.indexOf(";") != -1) { //[ ; ]포함된 문장만 read 하고 싶어요
-					 System.out.println(line);
-				 }
+//				 if(line.indexOf(";") != -1) { //[ ; ]포함된 문장만 read 하고 싶어요
+//					 System.out.println(line);
+//					 System.out.println("******" + line.indexOf(";"));
+//				 }
 			 }
 			 
 		} catch (Exception e) {

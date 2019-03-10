@@ -4,9 +4,9 @@ public class Ex08_File_Directory {
 
 	public static void main(String[] args) {
 		
-		System.out.println(args.length);
-		System.out.println(args[0]);
-		System.out.println(args[1]);
+//		System.out.println(args.length);
+//		System.out.println(args[0]);
+//		System.out.println(args[1]);
 
 		if(args.length != 1) {
 			System.out.println("사용법 : java 파일명 [디렉토리명]");

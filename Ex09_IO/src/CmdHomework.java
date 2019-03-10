@@ -18,7 +18,8 @@ public class CmdHomework {
 //		BufferedOutputStream bo = null;
 //		BufferedReader br = null;
 		
-		
+		// args.length != 1 은  args의 길이가 1이아니면 출력을한다 
+		// 즉 길이 1만 사용가능하고 2, 3개 써도 출력된다
 		if (args.length != 3 && args.length !=4 && args.length !=2 ) {
 			System.out.println("사용법 : java [파일명] [경로명] [rmdir] [대상 디렉토리] 을 쳐라 ㅡㅡ");
 			System.out.println("사용법 : java [파일명] [경로명] [rename] [대상 파일,디렉토리] [대상파일, 디렉토리] 을 쳐라 ㅡㅡ");
@@ -64,7 +65,7 @@ public class CmdHomework {
 			// TYPE [드라이브:][경로]파일이름
 			String path = "";
 			path = f2 + "";
-
+			
 			File file = new File(path);
 			
 			fr = new FileReader(path);
@@ -82,7 +83,7 @@ public class CmdHomework {
 					
 				}
 			//br.close();
-			fr.close();
+			//fr.close();
 				
 			}
 

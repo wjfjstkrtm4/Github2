@@ -77,8 +77,10 @@ public class Ex10_File_Sublist {
 		
 		// 질문 for 문 해석 // 재귀호출
 		for(int j = 0; j < subDir.size(); j++) { 
-			int index = subDir.get(j);
+			int index = subDir.get(j); // ArrayList의 방에 각각 저장되어있는 디렉터리의 주소를 index에 넣고
 			printFileList(files[index]);
+			// files
+			
 		}
 		
 		

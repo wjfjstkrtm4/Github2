@@ -44,13 +44,14 @@ public class Ex04_ArrayList_Parameter {
 		li.add(100);
 		li.add(200);
 		li.add(300);
-		
+	
 		
 		empdata.setAlist(li);
 		System.out.println(empdata.getAlist().toString());
 		
 		
 		ArrayList li2 = new ArrayList(100); // °¡´É ....
+		
 		
 		
 		

@@ -17,6 +17,16 @@ public class Ex03_ArrayList_Object_KeyPoint {
 		for(Emp emp : emplist) {
 			System.out.println(emp.toString());
 		}
+		// 향상된 for문을 사용하면 바로 찍을 수 있지만
+
+		System.out.println("********");
+		for(int i = 0; i < emplist.length; i++) {
+		System.out.println(emplist[i].toString());
+			
+		}
+		// emplist에는 emp객체 2개의 주소가 들어가있고
+		// emplist[0], emplist[1]째 주소에 접근해서 toString으로 출력한것
+		// 그냥 for문을 사용할 경우에는 좀 번거롭다
 		
 		// 실수 했어요 .. 한명이 입사를 더 했어요 ...
 		// 위 정적 배열에 추가하는건 불가하다(x) -> 새로 new ... (x)

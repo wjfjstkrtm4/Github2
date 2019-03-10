@@ -50,7 +50,7 @@ public class Ex11_Set_TreeSet {
 		// Lotto : 1 ~ 45 난수 > 6개 >> 중복(X) >> 정렬(O)
 		
 		Set<Integer> lotto = new TreeSet<Integer>();
-		
+	
 		for(int i = 0; lotto.size() < 6; i++) {
 			lotto.add((int)(Math.random() *45 +1) );
 			
