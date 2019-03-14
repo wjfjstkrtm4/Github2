@@ -37,7 +37,7 @@ public class Ex09_File_Format {
 		
 		for(int i = 0; i < files.length; i++) {
 			File file = files[i];
-			
+			System.out.println(file);
 			String name = file.getName(); // name >> a.txt, name >> NEW(폴더) 
 											// 즉 getName()은 폴더와 파일 이름을 가져 온다
 			SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH-mma");
